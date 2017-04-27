@@ -1,0 +1,236 @@
+<?php
+    session_start();
+?>
+
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<script>
+
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
+}
+
+
+
+function openPage(evt, task) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+
+    //Hiding the Button Div
+   document.getElementById("btns_div").style.display = "none";
+
+
+    //Hiding the Button
+    tabcontent1 = document.getElementsByClassName("tab_btn");
+    for (i = 0; i < tabcontent1.length; i++) {
+        tabcontent1[i].style.display = "none";
+    }
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(task).style.display = "block";
+    evt.currentTarget.className += " active";
+
+    //Create the button to navigate back to the page
+    var home=document.createElement("input");
+    home.setAttribute("type","button");
+    home.setAttribute("value","Go Back>>");
+    home.setAttribute("id","home_btn");
+    home.setAttribute("onclick","home()");
+
+    document.body.appendChild(home);
+
+}
+
+function home()
+{
+    window.location="one.html";
+}
+
+
+</script>
+<head>
+
+<link rel="stylesheet" type="text/css" href="reg_page_style.css">
+
+</head>
+<body>
+  <!-- Use any element to open the sidenav -->
+  <span onclick="openNav()" id="arrow_pos" >
+
+      <i class="fa fa-bars" aria-hidden="true" id="arrow"></i>
+
+
+  </span>
+
+
+       <!-- Title -->
+
+       <h2 id="reg_page_title" align="center">
+
+
+            REGISTRATION PAGE
+
+       </h2>
+
+       <!-- End Of Title -->
+       <div id="btns_div">
+
+           <a href="javascript:void(0)" onclick="openPage(event, 'login')"><input  class="tab_btn" type="button" value="Sign In"> </a>
+          <br>
+          <br>
+          <a href="javascript:void(0)"  onclick="openPage(event, 'reg_form')"> <input class="tab_btn" type="button" value="Register"></a>
+
+      </div>
+
+       <!-- Beginning of Input Form -->
+
+       <div id="reg_form" class="tabcontent">
+
+       <form action="regConfirm.php" method="get">
+
+           <label  class="form_heading">
+                 Enter your Full Name here :
+           </label>
+            <br>
+            <br>
+           <input type="text"  placeholder="Enter Your Name" id="name" name="name">
+
+           <br>
+           <br>
+
+           <label  class="form_heading">
+                 What's your Room Number :
+           </label>
+            <br>
+            <br>
+           <input type="text"  placeholder="Enter Your Room Number" id="room_num" name="roomNumber">
+
+           <br>
+           <br>
+
+           <label  class="form_heading">
+                 Enter your Email Id :
+           </label>
+            <br>
+            <br>
+           <input type="email"  placeholder="Enter Your Email ID" id="email" name="emailReg">
+
+            <br>
+            <br>
+
+            <label  class="form_heading">
+                 Enter your Phone Number :
+           </label>
+            <br>
+            <br>
+           <input type="text"  placeholder="Enter Your Phone Number" id="num" name="num">
+
+            <br>
+            <br>
+
+            <label  class="form_heading">
+                 Enter your Password here :
+           </label>
+            <br>
+            <br>
+           <input type="password"  placeholder="Enter Your Password" id="password1" name="passReg">
+
+           <br>
+           <br>
+
+           <label  class="form_heading">
+                 Re-Enter your password :
+           </label>
+            <br>
+            <br>
+           <input type="password"  placeholder="Enter Your password again" id="password2" name="pass1Reg">
+
+            <br>
+            <br>
+
+            <input type="submit" class="submit_btn">
+
+
+        </form>
+
+        </div>
+      <!-- End of Form -->
+
+      <!-- Login Form -->
+
+      <div id="login" class="tabcontent">
+
+        <form method="post" action="loginForm.php"
+          <label class="form_heading">
+              Email Id :
+            </label>
+            <br>
+            <br>
+
+            <input type="email" placeholder="Enter Your Email ID" id="email1" name="email_signIn">
+
+            <br>
+            <br>
+
+            <label class="form_heading">
+
+                Password:
+            </label>
+            <br>
+            <br>
+            <input type="password" placeholder="Enter your password here" id="password_entered" name="passSignIn">
+            <br>
+            <br>
+
+            <input type="submit" class="submit_btn1">
+        </div>
+
+      <!-- Beginning of Navigation Bar -->
+
+     <div id="mySidenav" class="sidenav">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="about1.html">About Us</a>
+  <a href="contactUs.html">Contact Us</a>
+  <a href="homepagefinal.html">Home</a>
+  <a href="one.html">Sign In/Sign Up</a>
+
+    </div>
+
+
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  ...
+</div>
+
+
+</body>
+
+
+</html>

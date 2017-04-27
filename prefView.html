@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="prefView.css">
+</head>
+<script>
+
+var ele1=document.getElementById("home");
+var ele2=document.getElementById("aboutUs");
+var ele3=document.getElementById("contactUs");
+var ele4=document.getElementById("logOut");
+
+ele1.addEventListener("onclick",callhome,false);
+ele2.addEventListener("onclick",callAboutUs,false);
+ele3.addEventListener("onclick",callContactUs,false);
+ele4.addEventListener("onclick",callLogOut,false);
+
+function callhome()
+{
+  document.location="home.html";
+}
+function callAboutUs()
+{
+  document.location="aboutUs.html";
+}
+function callContactUs()
+{
+  document.location="contactUs.html";
+}
+
+  function turn(e)
+  {
+    if(e=="p1")
+    {
+
+      var div=document.getElementById("person1");
+      div.style.background="#202020";
+      var pic=document.getElementById("pic1");
+      pic.style.display="NONE";
+      var d=document.getElementById("year1");
+      year1.style.top="20px";
+     var abt=document.createElement("p");
+     abt.textContent="Fluent in English";
+     abt.style.color="white";
+     abt.style.fontSize="20px";
+     abt.style.fontFamily=" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+     abt.style.position="relative";
+     abt.style.top="15px";
+     abt.style.left="55px";
+     var abt1=document.createElement("p");
+     abt1.textContent="Budget: Rs 20000.";
+     abt1.style.color="white";
+     abt1.style.fontSize="20px";
+     abt1.style.fontFamily=" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+     abt1.style.position="relative";
+     abt1.style.top="10px";
+     abt1.style.left="50px";
+     var abt2=document.createElement("p");
+     abt2.textContent="Vegetarian";
+     abt2.style.color="white";
+     abt2.style.fontSize="20px";
+     abt2.style.fontFamily=" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+     abt2.style.position="relative";
+     abt2.style.top="05px";
+     abt2.style.left="75px";
+     document.getElementById("p1").style.display="NONE";
+     var abt3=document.createElement("p");
+     abt3.textContent="65 Years Old";
+     abt3.style.color="white";
+     abt3.style.fontSize="20px";
+     abt3.style.fontFamily=" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+     abt3.style.position="relative";
+     abt3.style.top="00px";
+     abt3.style.left="65px";
+
+     var b1=document.createElement("input");
+     b1.setAttribute("type","button");
+     b1.setAttribute("class","pbtn");
+     b1.setAttribute("value","Go Back.");
+     b1.setAttribute("onclick","normal(this)");
+     div.appendChild(abt);
+     div.appendChild(abt1);
+     div.appendChild(abt2);
+     div.appendChild(abt3);
+     div.appendChild(b1);
+    }
+
+    if(e=="p2")
+    {
+
+      var div=document.getElementById("person2");
+      div.style.background="#202020";
+      var pic=document.getElementById("pic2");
+      pic.style.display="NONE";
+      var d=document.getElementById("year2");
+      d.style.top="20px";
+     var abt=document.createElement("p");
+     abt.textContent="Fluent in Italian";
+     abt.style.color="white";
+     abt.style.fontSize="20px";
+     abt.style.fontFamily=" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+     abt.style.position="relative";
+     abt.style.top="8px";
+     abt.style.left="65px";
+     var abt1=document.createElement("p");
+     abt1.textContent="Budget: Rs 40000.";
+     abt1.style.color="white";
+     abt1.style.fontSize="20px";
+     abt1.style.fontFamily=" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+     abt1.style.position="relative";
+     abt1.style.top="10px";
+     abt1.style.left="60px";
+     var abt2=document.createElement("p");
+     abt2.textContent="Non-Vegetarian";
+     abt2.style.color="white";
+     abt2.style.fontSize="20px";
+     abt2.style.fontFamily=" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+     abt2.style.position="relative";
+     abt2.style.top="05px";
+     abt2.style.left="70px";
+     document.getElementById("p2").style.display="NONE";
+     var abt3=document.createElement("p");
+     abt3.textContent="29 Years Old";
+     abt3.style.color="white";
+     abt3.style.fontSize="20px";
+     abt3.style.fontFamily=" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+     abt3.style.position="relative";
+     abt3.style.top="00px";
+     abt3.style.left="75px";
+
+     var b1=document.createElement("input");
+     b1.setAttribute("type","button");
+     b1.setAttribute("class","pbtn");
+     b1.setAttribute("value","Go Back.");
+     b1.setAttribute("onclick","normal(this)");
+     div.appendChild(abt);
+     div.appendChild(abt1);
+     div.appendChild(abt2);
+     div.appendChild(abt3);
+     div.appendChild(b1);
+    }
+
+    if(e=="p3")
+    {
+
+      var div=document.getElementById("person3");
+      div.style.background="#202020";
+      var pic=document.getElementById("pic3");
+      pic.style.display="NONE";
+      var d=document.getElementById("year3");
+      d.style.top="20px";
+     var abt=document.createElement("p");
+     abt.textContent="Fluent in Italian";
+     abt.style.color="white";
+     abt.style.fontSize="20px";
+     abt.style.fontFamily=" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+     abt.style.position="relative";
+     abt.style.top="15px";
+     abt.style.left="55px";
+     var abt1=document.createElement("p");
+     abt1.textContent="Budget: Rs 4000.";
+     abt1.style.color="white";
+     abt1.style.fontSize="20px";
+     abt1.style.fontFamily=" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+     abt1.style.position="relative";
+     abt1.style.top="10px";
+     abt1.style.left="60px";
+     var abt2=document.createElement("p");
+     abt2.textContent="Vegetarian";
+     abt2.style.color="white";
+     abt2.style.fontSize="20px";
+     abt2.style.fontFamily=" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+     abt2.style.position="relative";
+     abt2.style.top="05px";
+     abt2.style.left="80px";
+     document.getElementById("p3").style.display="NONE";
+     var abt3=document.createElement("p");
+     abt3.textContent="45 Years Old";
+     abt3.style.color="white";
+     abt3.style.fontSize="20px";
+     abt3.style.fontFamily=" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+     abt3.style.position="relative";
+     abt3.style.top="00px";
+     abt3.style.left="75px";
+
+     var b1=document.createElement("input");
+     b1.setAttribute("type","button");
+     b1.setAttribute("class","pbtn");
+     b1.setAttribute("value","Go Back.");
+     b1.setAttribute("onclick","normal(this)");
+     div.appendChild(abt);
+     div.appendChild(abt1);
+     div.appendChild(abt2);
+     div.appendChild(abt3);
+     div.appendChild(b1);
+    }
+  }
+
+  function normal(e)
+  {
+    window.location="prefView.html";
+  }
+
+</script>
+
+<body>
+
+  <div id="topDiv">
+
+    <a href="homepagefinal.html"><input class="btn" type="button" name="home" value="Home" id="home"></a>
+    <a href="about1.html"><input class="btn" type="button" name="aboutUs" value="About Us" id="aboutUs"></a>
+    <a href="homepagefinal.html"><img src="um.png" id="logo" width="120" height="120"></a>
+    <a href="contactUs.html"><input class="btn" type="button" name="contactUs" value="Contact Us" id="contactUs"></a>
+    <input class="btn" type="button" name="logOut" value="Log Out" id="logOut" onclick="location.href = 'logOut.php';">
+
+  </div>
+
+
+  <div id="person1" class="person">
+
+    <img src="trump.jpg" class="pics" id="pic1">
+    <h2 class="name"> Donald Trump </h2>
+    <p class="year" id="year1"> Psychology 2nd Year </p>
+    <input type="button" name="click" value="View Profile" id="p1" class="pbtn" onclick="turn(this.id)">
+
+  </div>
+
+  <div id="person2" class="person">
+
+    <img src="joey.jpg" class="pics" id="pic2">
+    <h2 class="name"> Joey Tribianni </h2>
+    <h4 class="year" id="year2"> Arts 3rd Year </h4>
+    <input type="button" name="click" value="View Profile" id="p2" class="pbtn" onclick="turn(this.id)">
+
+  </div>
+
+  <div id="person3" class="person">
+
+    <img src="pablo.jpg" class="pics" id="pic3">
+    <h2 class="name"> Pablo Escobar </h2>
+    <h4 class="year" id="year3"> Civil Services 4th Year </h4>
+    <input type="button" name="click" value="View Profile" id="p3" class="pbtn" onclick="turn(this.id)">
+
+  </div>
+
+
+</body>
+
+</html>

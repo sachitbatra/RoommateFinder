@@ -1,0 +1,143 @@
+body
+{
+  background-image: url("4787.jpg");
+}
+
+#topDiv
+{
+  position: relative;
+  top:20px;
+  left:230px;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  width: 850px;
+  height:75px;
+}
+
+#home
+{
+  left:10px;
+}
+#aboutUs
+{
+  left:100px;
+}
+#contactUs
+{
+  left: 290px;
+
+}
+#logOut
+{
+  left:345px;
+}
+.btn
+{
+  border:none;
+  padding: 0;
+  background: none;
+  position: relative;
+  top:-70px;
+  font-size: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#D9411E
+}
+
+#logo
+{
+  position: relative;
+  left: 200px;
+  top:-20px;
+  border-radius: 50%;
+
+}
+.pics
+{
+  height:180px;
+  width:180px;
+  border: solid 2px black;
+  border-radius: 50%;
+  position: relative;
+  left:40px;
+  top:10px;
+
+}
+
+.year
+{
+  top:-5px;
+  font-size:20px;
+  color:white;
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#year1
+{
+  position: relative;
+  left:40px;
+}
+#year2
+{
+  position: relative;
+  left:80px;
+}
+#year3
+{
+  position: relative;
+  left:30px;
+}
+.pbtn
+{
+  position: relative;
+  top:00px;
+  left:65px;
+  width:140px;
+  font-size: 20px;
+  height:50px;
+  background-color: white;
+  border: solid 2px seagreen;
+  border-radius: 4px;
+}
+.name
+{
+  position: relative;
+  left:40px;
+  top:10px;
+  color:seagreen;
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.person
+{
+  border:solid 1px black;
+  width:275px;
+  border-radius: 6px;
+  height:400px;
+  /* background-color:#202020  ; */
+  background-image: linear-gradient(bottom , #202020 50%, #B6B6B6 50%);
+background-image: -o-linear-gradient(bottom, #202020 50%, #B6B6B6 50%);
+background-image: -moz-linear-gradient(bottom, #202020 50%, #B6B6B6 50%);
+background-image: -webkit-linear-gradient(bottom, #202020 50%, #B6B6B6 50%);
+background-image: -ms-linear-gradient(bottom, #202020 50%, #B6B6B6 50%);
+}
+
+#person1
+{
+  position: relative;
+  left:75px;
+  top:125px;
+}
+
+#person2
+{
+  position: relative;
+  left:500px;
+  top:-275px;
+}
+
+#person3
+{
+  position: relative;
+  left:925px;
+  top:-675px;
+}

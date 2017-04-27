@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="aboutCss.css">
+
+<body>
+
+  <div id="topDiv">
+
+    <a href="homepagefinal.html"><input class="btn" type="button" name="home" value="Home" id="home" onclick="callhome()"></a>
+    <a href="about1.html"><input class="btn" type="button" name="aboutUs" value="About Us" id="aboutUs" onclick="callAboutUs()"></a>
+    <a href="homepagefinal.html"> <img src="um.png" id="logo" width="120" height="120"></a>
+    <a href="contactUs.html"><input class="btn" type="button" name="contactUs" value="Contact Us" id="contactUs" onclick="callContactUs"></a>
+    <input class="btn" type="button" name="logOut" value="Log Out" id="logOut" onclick="location.href = 'logOut.php';"></a>
+
+  </div>
+<div id="headDiv">
+
+<img src="aboutUs3.png" height="150px" class="aboutUs">
+
+</div>
+<div id="mainDiv">
+
+
+<img src="sachit.jpg" id="sachit" class="pics" onmouseover="display(this.id)" onmouseout="displayout(this.id)">
+<img src="sharnam.jpg" id="sharnam" class="pics" onmouseover="display(this.id)" onmouseout="displayout(this.id)">
+<br>
+<br>
+<img src="rohit.jpg" id="rohit" class="pics" onmouseover="display(this.id)" onmouseout="displayout(this.id)">
+<img src="simran.jpg" id="simran" class="pics" onmouseover="display(this.id)" onmouseout="displayout(this.id)">
+
+</div>
+
+
+
+</body>
+
+<script>
+
+function display(x)
+{
+  var pic=document.querySelectorAll(".pics");
+  var d=document.createElement("div");
+
+  if(x=="sachit")
+  {
+    pic[1].setAttribute("src","sachit1.jpg");
+    pic[2].setAttribute("src","sachit2.jpg");
+    pic[3].setAttribute("src","sachit3.jpg");
+  }
+
+  else if(x=="sharnam")
+  {
+  pic[0].setAttribute("src","sharnam1.jpg");
+  pic[2].setAttribute("src","sharnam2.jpg");
+  pic[3].setAttribute("src","sharnam3.jpg");
+  }
+  else if(x=="rohit")
+  {
+    pic[0].setAttribute("src","rohit1.jpg");
+    pic[1].setAttribute("src","rohit2.jpg");
+    pic[3].setAttribute("src","rohit3.jpg");
+  }
+  else if(x=="simran")
+  {
+  pic[0].setAttribute("src","simran1.jpg");
+  pic[1].setAttribute("src","simran2.jpg");
+  pic[2].setAttribute("src","simran3.jpg");
+  }
+
+
+
+
+}
+
+function displayout(x)
+{
+  var pic=document.querySelectorAll(".pics");
+  pic[0].setAttribute("src","sachit.jpg");
+  pic[1].setAttribute("src","sharnam.jpg");
+  pic[2].setAttribute("src","rohit.jpg");
+  pic[3].setAttribute("src","simran.jpg")
+}
+</script>
+
+</html>

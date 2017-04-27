@@ -1,0 +1,145 @@
+#review
+{
+  border:solid 3px darkblue;
+  padding:5px;
+  font-size: 20px;
+  width:350px;
+  color: white;
+  height:518px;
+  position: absolute;
+  top:10%;
+  left:200px;
+  background: url("linen.png");
+}
+
+body
+{
+  background: url("back6.jpg");
+  position: fixed;;
+  overflow-y:scroll;;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+  color:darkgreen;
+}
+
+.list_items
+{
+  color:seagreen;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+}
+#headLeft
+{
+  position: relative;
+  left:200px;
+  top:-8px;
+  width:362px;
+  border: solid 3px darkblue;
+  background: url("back12.png");
+}
+#headRight
+{
+  width:770px;
+  left:358px;
+  float:right;
+  border:solid 3px darkblue;
+  position: relative;
+  top:-200px;
+  height:145px;
+  background: url("linen.png");
+
+}
+h2
+{
+  font-size:60px;
+  position: relative;
+  left:5%;
+  top:-25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:seagreen;
+}
+
+#navBar
+{
+  display: inline;
+  list-style-type: none;
+}
+
+#sideBar
+{
+  background-color: black;
+  border:solid 1px white;
+  float:left;
+  position: relative;
+  top:-198px;
+  left:-8px;
+  height: 1000px;
+  width:175px;
+  padding: 15px;
+
+}
+
+input,textarea
+{
+  border:solid 2px black;
+  padding: 10px;
+  width: 250px;
+  position: relative;
+  left:-20px;
+}
+#review li
+{
+  color:black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  list-style-type: none;
+  position: relative;
+  left:-20px;
+}
+#submit_button
+{
+  border:solid 2px black;
+  border-radius: 4.5px;
+  font-size: 20px;
+  color: seagreen;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: black;
+}
+
+#responseBar
+{
+  background: url("back12.png");
+  position:absolute;
+  border:solid 3px darkblue;
+  height:450px;
+  top:10%;
+  left:565px;
+  width:770px;
+  height:529px;
+  padding:20px;
+}
+#rev
+{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:28px;
+  position: relative;
+  top:-40px;
+  left:110px;
+ color: seagreen;
+}
+#display
+{
+  position: relative;
+ background: url("linen.png");
+  top:-50px;
+  border:solid 3px blue;
+  width:730px;
+  height:434px;
+}

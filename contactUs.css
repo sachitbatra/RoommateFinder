@@ -1,0 +1,129 @@
+body
+{
+  background-image: url("4787.jpg");
+}
+
+#topDiv
+{
+  position: relative;
+  top:20px;
+  left:230px;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  width: 850px;
+  height:75px;
+}
+
+#home
+{
+  left:10px;
+}
+#aboutUs
+{
+  left:100px;
+}
+#contactUs
+{
+  left: 270px;
+
+}
+#profPage
+{
+  left:325px;
+}
+.btn
+{
+  border:none;
+  padding: 0;
+  background: none;
+  position: relative;
+  top:-70px;
+  font-size: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#D9411E
+}
+
+#logo
+{
+  position: relative;
+  left: 200px;
+  top:-20px;
+  border-radius: 50%;
+
+}
+
+#heading
+{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:white;
+  font-size: 60px;
+  position: relative;
+  left:190px;
+  top:10px;
+}
+
+#form
+{
+  position: relative;
+  top:-35px;
+  left:180px;
+  width:350px;
+  height:380px;
+  border: solid 2px white;
+  padding: 5px;
+  background: url("back12.png");
+}
+#form input
+{
+  width:300px;
+  position: relative;
+  left:25px;
+  top:25px;
+  height:40px;
+}#tarea
+{
+  position: relative;
+  left:25px;
+  top:25px;
+}
+#submitBtn
+{
+  position: relative;
+  top:25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: solid 2px black;
+  border-radius: 4px;
+ font-size: 20px;
+ color:seagreen;
+}
+
+#heading1
+{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:white;
+  font-size: 60px;
+  position: relative;
+  left:770px;
+  top:-570px;
+}
+
+#rev
+{
+  border:solid 2px white;
+  width:500px;
+  padding: 10px;
+  height:380px;
+  position: relative;
+  left:700px;
+  top:-580px;
+  overflow-y: scroll;;
+  background: url("back12.png");
+}
+
+
+#rev li
+{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:seagreen;
+  font-size: 20px;
+}

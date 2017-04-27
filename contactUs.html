@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <?php
+    session_start();
+  ?>
+<head>
+  <link rel="stylesheet" href="contactUs.css">
+</head>
+<script>
+
+function callhome()
+{
+  window.location="homepagefinal.html";
+}
+function callAboutUs()
+{
+  window.location="about1.html";
+}
+function callContactUs()
+{
+  window.location="contactUs.html";
+}
+function callProfilePage()
+{
+  window.location="userProfile.html";
+}
+
+</script>
+
+<body>
+
+  <div id="topDiv">
+
+    <input class="btn" type="button" name="home" value="Home" id="home" onclick="callhome()">
+    <input class="btn" type="button" name="aboutUs" value="About Us" id="aboutUs" onclick="callAboutUs()">
+    <img src="um.png" id="logo" width="120" height="120">
+    <input class="btn" type="button" name="contactUs" value="Contact Us" id="contactUs" onclick="callContactUs()">
+    <input class="btn" type="button" name="profilePage" value="My Profile" id="profPage" onclick="callProfilePage()">
+
+  </div>
+
+<h1 id="heading"> Write To Us! </h1>
+<br>
+<br>
+<div id="form">
+<form action="response.php" method="get">
+
+  <input type="text" placeholder="Enter Your Name here" id="name" name="name">
+  <br>
+  <br>
+  <input type="email" placeholder="Enter Your Email here" id="email" name="email">
+  <br>
+  <br>
+
+  <textarea id="tarea" cols="40" rows="10" name="response">
+  </textarea>
+  <br>
+  <br>
+  <input type="button" value="Submit" id="submitBtn">
+
+
+</form>
+
+</div>
+
+<h1 id="heading1"> Some Reviews </h1>
+<div id="rev">
+
+
+
+<ul>
+  <li>Name : M S Dhoni </li>
+  <li>Very Responsive and a very helpful website.<br>
+      Very Efficient in finding a perfeect roommate.<br>
+      Minute Attention to detail very good.</li>
+
+</ul>
+<hr>
+<ul>
+  <li>Name: Kapil Sharma </li>
+  <li>A completely professional team with a new taste in technology.<br>
+      Ethical and logical use of Social Media.<br>
+      Best Tool for The Upcoming Generation<br>
+  </li>
+</ul>
+  <hr>
+
+  <ul>
+    <li>Name: Chandler Bing </li>
+    <li>Found a roommate called Joey.<br>
+        A perfect roommate with similar qualities.<br>
+        Thank you Uni-Mate <br>
+    </li>
+  </ul>
+    <hr>
+
+    <ul>
+      <li>Name: Danish Sait </li>
+      <li>A new startup that has the capacity to make it big.<br>
+          Lots of Cool Stuff and utilities.<br>
+          Offers the right help at the right time<br>
+      </li>
+    </ul>
+      <hr>
+
+
+</div>
+
+
+</body>
+
+</html>

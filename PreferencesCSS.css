@@ -1,0 +1,110 @@
+#preferenceBackground
+{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: linear-gradient(to bottom right,black,white);
+    }
+
+#preferenceContent
+{
+    background-image: url("four.jpg");
+    background-size: cover;
+    margin: 5% auto;
+    padding: 20px;
+    /*border: 1px solid #888;*/
+    width: 40%;
+    box-shadow: 10px 15px 120px 10px black;
+    margin-top: 25vh;
+}
+
+.prefInput
+{
+    background: black;
+    color: white;
+    height: 7vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 10vw;
+    margin-left: 2vw;
+    border: none;
+
+}
+
+.prefInput:focus{
+    background: #7c8470;
+    color: black;
+    border: black 2px solid;
+}
+
+#next_id
+{
+    background:transparent;
+    border: white 1px solid;
+    color: white;
+    height: 7vh;
+    width: 30vw;
+    margin: auto;
+    margin-left: 4.7vw;
+    margin-top: 6vh;
+    font-size: 20px;
+}
+
+#next_id:hover{
+    background: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#topDiv
+			{
+			  position: relative;
+			  top:20px;
+			  left:230px;
+			  border-top: solid 2px white;
+			  border-bottom: solid 2px white;
+			  width: 850px;
+			  height:75px;
+			}
+
+			#home
+			{
+			  left:10px;
+			}
+			#aboutUs
+			{
+			  left:100px;
+			}
+			#contactUs
+			{
+			  left: 270px;
+
+			}
+			#logOut
+			{
+			  left:325px;
+			}
+			.btn
+			{
+			  border:none;
+			  padding: 0;
+			  background: none;
+			  position: relative;
+			  top:-70px;
+			  font-size: 25px;
+			  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			  color:#D9411E
+			}
+
+			#logo
+			{
+			  position: relative;
+			  left: 200px;
+			  top:-20px;
+			  border-radius: 50%;
+
+			}

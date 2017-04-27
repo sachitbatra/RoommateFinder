@@ -1,0 +1,113 @@
+
+
+#topDiv
+{
+  position: relative;
+  top:20px;
+  left:230px;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  width: 850px;
+  height:75px;
+}
+
+#home
+{
+  left:10px;
+}
+#aboutUs
+{
+  left:100px;
+
+}
+#contactUs
+{
+  left: 290px;
+
+}
+#logOut
+{
+  left:345px;
+}
+.btn
+{
+  border:none;
+  padding: 0;
+  background: none;
+  position: relative;
+  top:-70px;
+  font-size: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#D9411E
+  
+}
+
+#logo
+{
+  position: relative;
+  left: 200px;
+  top:-20px;
+  border-radius: 50%;
+
+}
+
+
+
+body{
+  background: url("4787.jpg");
+}
+
+#headDiv
+{
+  position:relative;
+  left:490px;
+}
+.aboutUs
+{
+  border:solid 2px white;
+  border-radius:50%;
+  position: relative;
+  left:40px;
+  top:180px;
+}
+#sachit
+{
+  position:relative;
+  left:230px;
+  padding: 10px;
+}
+#sharnam
+{
+  position:relative;
+  left:630px;
+  padding: 10px;
+}
+#rohit
+{
+  position:relative;
+  left:230px;
+  padding: 10px;
+}
+#simran
+{
+  position:relative;
+  left:630px;
+  padding: 10px;
+}
+#mainDiv
+{
+
+  padding: 10px;
+  position:relative;
+  top:100px;
+}
+
+.pics
+{
+  height:200px;
+  width:200px;
+  border-radius:50%;
+  border:solid 3px white;
+  top:-200px;
+
+}

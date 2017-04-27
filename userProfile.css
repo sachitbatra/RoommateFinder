@@ -1,0 +1,117 @@
+
+body
+{
+  background: url("4787.jpg");
+
+  }
+#topDiv
+{
+  position: relative;
+  top:20px;
+  left:230px;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  width: 850px;
+  height:75px;
+}
+
+#home
+{
+  left:10px;
+}
+#aboutUs
+{
+  left:100px;
+}
+#contactUs
+{
+  left: 290px;
+
+}
+#logOut
+{
+  left:345px;
+}
+.btn
+{
+  border:none;
+  padding: 0;
+  background: none;
+  position: relative;
+  top:-70px;
+  font-size: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#D9411E
+}
+
+
+#profileLabel
+{
+  border:solid 2px black;
+  width:300px;
+  height:413px;
+  position: absolute;
+    top:150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-content: center;
+    margin: auto;
+    border-radius: 6px;
+    background: url("back3.png");
+}
+
+#logo
+{
+  position: relative;
+  left: 200px;
+  top:-20px;
+  border-radius: 50%;
+
+}
+
+#photo
+{
+  position: relative;
+  left:42px;
+  top:7px;
+  border-radius: 50%;
+  border: solid 2px black;
+  padding:5px;
+}
+
+#userName
+{
+  position: relative;
+  left:-0px;
+  top:-8px;
+  border:solid 1.5px black;
+  width:300px;
+  height:62px;
+  background:black;
+  color: #D9411E;
+}
+
+#name
+{
+  position: relative;
+  left:90px;
+  top:-0px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.pbtn
+{
+  width:300px;
+  padding: 10px;
+  position: relative;
+  left:0px;
+  top:-7px;
+  font-size: 20px;
+  border:solid 1px BLACK;
+  height:60px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #75A3D1;
+  color: BLACK;
+}

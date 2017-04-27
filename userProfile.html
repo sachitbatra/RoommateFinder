@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="userProfile.css">
+
+</head>
+<script>
+
+function callhome()
+{
+  window.location="home.html";
+}
+function callAboutUs()
+{
+  window.location="about1.html";
+}
+function callContactUs()
+{
+  window.location="contactUs.html";
+}
+
+function viewPref(e)
+{
+  window.location="prefView.html";
+}
+</script>
+
+<body>
+
+  <div id="topDiv">
+
+    <a href="homepagefinal.html"><input class="btn" type="button" name="home" value="Home" id="home" onclick="callhome()"></a>
+    <a href="about1.html"><input class="btn" type="button" name="aboutUs" value="About Us" id="aboutUs" onclick="callAboutUs()"></a>
+    <a href="homepagefinal.html"><img src="um.png" id="logo" width="120" height="120"></a>
+    <a href="contactUs.html"><input class="btn" type="button" name="contactUs" value="Contact Us" id="contactUs" onclick="callContactUs"></a>
+    <input class="btn" type="button" name="logOut" value="Log Out" id="logOut" onclick="location.href = 'logOut.php';">
+
+  </div>
+
+  <div id="profileLabel">
+
+    <img src="sachit.jpg" width="200px" height="200px" id="photo">
+    <hr id="line">
+    <div id="userName"><h2 id="name">  Sachit Batra </h2> </div>
+
+    <input type="button" class="pbtn" value="Preference Entry" name="Enter Preference" id="prEntry" onclick="location.href = 'Preferences.php';">
+
+    <input type="button" class="pbtn" value="Preference Display" name="Display Preference" id="prDisplay" onclick="viewPref()">
+
+
+
+  </div>
+
+</body>
+
+</html>
